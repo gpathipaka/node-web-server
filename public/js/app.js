@@ -1,7 +1,7 @@
 console.log('client side java script file loaded')
 
 
-fetch('http://localhost:3000/test').then((response)=>{
+fetch('/test').then((response)=>{
     console.log(response.json().then(data => {
         console.log(data)
     }))
